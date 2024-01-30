@@ -10,15 +10,29 @@ EZKeylogger is a simple, yet effective, keylogging tool developed by Yassin Habi
 - **Email Integration**: Automatically sends the collected data (keystrokes, system information, and screenshot) to a specified email address.
 
 ## Usage
-1. **Setup**: Clone the repository and install the required Python packages.
-2. **Configuration**: Run the script and enter the sender's and receiver's email addresses, and the sender's email password.
-3. **Execution**: The script will start collecting data, which includes logging keystrokes, gathering system information, and taking a screenshot.
-4. **Email**: Upon completion, the data is compiled and sent to the specified email address.
+1. **Setup**:
+   - Clone the repository.
+   - Install the required Python packages using `pip install -r requirements.txt`. This will install all the necessary dependencies listed in the `requirements.txt` file.
+2. **Configuration**:
+   - Run the script.
+   - Enter the sender's and receiver's email addresses, and the sender's email password.
+3. **Execution**:
+   - The script will start collecting data, which includes logging keystrokes, gathering system information, and taking a screenshot.
+4. **Email**:
+   - Upon completion, the data is compiled and sent to the specified email address.
 
 ## Requirements
 - Python 3.x
-- Necessary Python libraries: `keyboard`, `pyautogui`, `psutil`, `pyperclip`
+- Necessary Python libraries (listed in `requirements.txt`): `keyboard`, `pyautogui`, `psutil`, `pyperclip`
 - Email server credentials
+
+## Installation
+To install the necessary dependencies for this project, ensure that you have Python installed on your system, and then run:
+
+```
+pip install -r requirements.txt
+```
+
 
 ## Disclaimer
 This tool is intended for educational purposes only. Please ensure you have explicit authorization to use this tool on any system. Unauthorized keylogging is illegal and unethical.
