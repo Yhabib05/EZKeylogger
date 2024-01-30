@@ -1,7 +1,7 @@
 # EZKeylogger
 
 ## Introduction
-EZKeylogger is a simple, yet effective, keylogging tool developed by Yassin Habib. This tool is designed to record keystrokes on a computer for a set duration, capture system information, take screenshots, and then send this data via email. It's a comprehensive package for monitoring and logging system activity.
+EZKeylogger is a simple, yet effective, keylogging tool developed by me Yassin Habib. This tool is designed to record keystrokes on a computer until you press the escape button, capture system information, take screenshots, and then send this data via email. It's a comprehensive package for monitoring and logging system activity.
 
 ## Features
 - **Keystroke Logging**: Records all keystrokes and saves them into a log file.
